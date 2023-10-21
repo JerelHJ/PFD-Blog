@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-size: 6.5vw;
+    font-size: 100px;
 }
 
 h3 {
@@ -43,6 +43,7 @@ button {
     letter-spacing: 1px;
     color: #fff;
 }
+
 
 hr {
     background: #27ae60;
