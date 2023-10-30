@@ -60,24 +60,29 @@ header .intro {
     position: relative;
 }
 
-header .intro .head {
+.intro .head {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-header .intro .head h1 {
-    color: #000;
+.intro .head p{
+    color: white;
+    font-size: 1.75rem;
+}
+.intro .head h1 {
+    font-size: 150px;
+    color: white;
     font-family: "Leckerli One", cursive;
 }
 
-header .intro .head h6 {
+.intro .head h6 {
     letter-spacing: 0.3rem;
     color: #27ae60;
 }
 
-header .intro .head p:after {
+.intro .head p:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -85,6 +90,7 @@ header .intro .head p:after {
     height: 2rem;
     background: #27ae60;
 }
+
 
 header .navbar .navbar-nav .nav-link::after {
     content: "";
@@ -168,7 +174,7 @@ header .navbar .navbar-nav i {
 
 .blog .row .post a {
     text-decoration: none;
-    border-style: none;
+    border-style: 1;
     font-size: 0.9rem;
     color: #27ae60;
     font-weight: bold;
