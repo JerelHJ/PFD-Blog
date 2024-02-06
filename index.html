@@ -48,9 +48,9 @@
 
     <section class="blog my-5 container">
         <div class="row">
-            <div class="post col-lg-8 col-md-8 col-12">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="post1 col-lg-6 col-md-6 col-12 pb-4">      
+                    <div class="post1 col-lg-6 col-md-6 col-12 ">      
                         <h2>Week 1</h2>
                         <p>
                             <h3>Progress </h3>
@@ -255,16 +255,95 @@
                         <img class="img-fluid mb-3" src="Img/24.png" >
                     </div>
                 </div>
-            </div>
 
-            <div class="sidebar col-lg-4 col-md-4 col-0">
-                <div class="side1 text-center pb-5">
-                    <img class="img-fluid mb-3" src="Img/11.jpg">
-                    <h3>Jerel</h3>
-                    <h6 class="text-uppercase">Student</h6>
-    
+                <div class="row">
+                    <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+                        <h2>Week 14</h2>
+                        <p>
+                            <h3>Progress </h3>
+                            
+                            In week 14, I dedicated my time to refining my Python code that utilizes Matplotlib. Specifically, I focused on integrating it with a MySQL database. This integration allowed me to efficiently retrieve data from the database, which I then utilized to plot data points onto a GPS map within the Cartopy library of Matplotlib.
+
+                            By linking my Python code with the MySQL database, I was able to streamline the process of accessing and utilizing the data stored within it. This not only enhanced the efficiency of my code but also facilitated the visualization of the data points on the GPS map.
+
+                            Utilizing Matplotlib's capabilities alongside Cartopy's mapping functionalities, I was able to create a visually informative representation of the data, which is essential for gaining insights and making informed decisions based on geographical data.
+        
+                            <br>
+                          
+                          
+                        </p>
+
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 pb-4">
+                        <br>
+                        <h4>Python code [Linked to mysql Database]</h4>
+                        <img class="img-fluid mb-3" src="Img/25.png">
+
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+                        <h2>Week 15</h2>
+                        <p>
+                            <h3>Progress </h3>
+                            In week 15, I dedicated my efforts to refining my Matplotlib code further, focusing on enhancing its ability to generate informative and visually appealing plots. One significant update I implemented was the incorporation of a feature that assigns different colors to data plots based on the floor of the building from which the GPS data was collected. Additionally, I added a legend to the plot to display which color represents each floor.
+
+                            This enhancement significantly improves the interpretability of the generated plots. By assigning distinct colors to data points from different floors and providing a legend for reference, viewers can easily identify and understand the spatial distribution of data across various floors of the building.
+                            <img class="img-fluid mb-3" src="Img/26.png">
+                            <img class="img-fluid mb-3" src="Img/27.png" >
+                            <br>
+                          
+                          
+                        </p>
+
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 pb-4">
+                        <br>
+                        <h4>Cartopy GPS Map</h4>
+                       
+                        <img class="img-fluid mb-3" src="Img/28.png" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+                        <h2>Week 16</h2>
+                        <p>
+                            <h3>Progress </h3>
+                            In week 16, my group mate Jia Xian and I conducted user testing for our GPS tracker project around Ngee Ann Polytechnic. This phase of user testing is pivotal in our development process as it allows us to gather invaluable feedback and pinpoint any potential issues or areas for improvement in our tracker's functionality and usability.
+
+                            During our testing sessions, we encountered a challenge related to the accuracy of altitude readings from the BMP sensor module, which we use to estimate floor levels. We realized that external factors, such as weather conditions, can affect the accuracy of these altitude readings. Consequently, this variability impacted the precision of our estimated floor levels.
+
+                            To address this issue, my group mate made temporary adjustments by setting a reference point to test the capability of the barometric pressure sensor to detect altitude changes, particularly when traversing stairs. This temporary measure aimed to assess whether the sensor could accurately detect altitude fluctuations associated with changes in elevation, such as climbing or descending stairs within buildings.
+                            <br>
+                            <br>
+                            
+                            I also expanded the functionality of my Matplotlib code to include a security check feature. Specifically, I incorporated logic to compare the Bluetooth MAC address of the security device with the assigned security guard device's Bluetooth MAC address stored in the database.
+
+                            If the MAC addresses do not match, indicating that the patrol was not conducted by the assigned security guard, I configured the code to plot the GPS points in red. This visual indication serves as a clear indicator that the patrol was not carried out by the designated personnel.
+                              
+                            By incorporating this security check into the Matplotlib code, I not only enhance the visualization of patrol data but also provide an effective means of monitoring and ensuring compliance with security protocols. This added layer of accountability can significantly contribute to maintaining the integrity and effectiveness of security patrols.
+                            
+                            
+                            <h4>Security Guard Device Bluetooth MAC Address Check</h4>
+                            <img class="img-fluid mb-3" src="Img/31.png" >
+                        </p>
+
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 pb-4">
+                        <br>
+                        <h4>Pictures of the location we tested the accuracy of the altitude data</h4>
+                        <img class="img-fluid mb-3" src="Img/29.jpg">
+                        <img class="img-fluid mb-3" src="Img/30.jpg" >
+                       
+                    </div>
                 </div>
             </div>
+
+            
         </div>
     </section>
 
